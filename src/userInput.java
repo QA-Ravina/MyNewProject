@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class userInput {
@@ -8,7 +9,11 @@ public class userInput {
         System.out.println("Good Morning " + name );
         System.out.println(name + " ,Please tell me your age:");
         int age = input.nextInt();
+        input.nextLine();
         System.out.println(name + ",Your age is " + age);
+        System.out.println(name + ",Please tell me where do you live?");
+        String Address = input.nextLine();
+        System.out.println(name + " Your address is " + Address);
 
 
     }
