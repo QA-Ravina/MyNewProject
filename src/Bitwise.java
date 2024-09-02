@@ -71,7 +71,7 @@ public class Bitwise {
         System.out.print("Please enter the number: ");
         int numb = input.nextInt();
 
-        int Answer = numb >> 1; // This will remove the left bit and then write 0 in the right most space
+        int Answer = numb >> 1; // The right shift operation discards the rightmost bit, not the leftmost.
         System.out.println("Result is : " + Answer);
     }
 }
