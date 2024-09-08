@@ -1,5 +1,3 @@
-import java.net.ServerSocket;
-
 public class parameter {
     public static void main(String[] args) {
         System.out.println(SumTwoNumbers(10,10));
