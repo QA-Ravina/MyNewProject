@@ -13,6 +13,15 @@ public class ArrayBasic {
         System.out.println(myArr[0]);
         System.out.println(myArr[1]);
 
+        int[] arrr = new int[3]; //size of the array
+        arrr[0] = 1;
+        arrr[1] = 3;
+        arrr[2] = 5;
+
+        int sum = arrr[0] + arrr[1] + arrr[2];
+        System.out.println("Print the sum of array: " + sum);
+
+
 
         System.out.println("Printing array through loop\n");
 
